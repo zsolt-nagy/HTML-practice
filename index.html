@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <a class="main-header-nav__a" href="https://www.youtube.com/watch?v=ISH4WAcljuE" target="_blank">Mac videó</a>
+            <a class="main-header-nav__a" href="./index.html#bekezdes">Bekezdések</a>
+            <a class="main-header-nav__a" href="./index.html#tablazat">Táblázat</a>
+            <a class="main-header-nav__a--active" href="./index.html#kepek">Képek és multimédia</a>
+            <a class="main-header-nav__a" href="./kapcsolat.html">Kapcsolat</a>
+        </nav>
+    </header>
+    <article>
+        <h1>HTML alapjai</h1>
+        <section id="bekezdes">
+            <h2>Bekezdések és Listák</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <ul>
+                <li><strong>Félkövér</strong></li>
+                <li><em>Dőlt</em></li>
+            </ul>
+            <p>Lorem <strong>inline</strong> ipsum dolor sit amet 
+                consecteturadipisicingelitagn
+                ilaudantium quod ullam sim
+                ilique? Minus molestiae iu
+                sto ad deleniti necessitati
+                bus iure nobis ea quisquam 
+                vel sapiente distinctio simi
+                lique voluptas nostrum animi, 
+                veniam nihil porro corporis quas doloremque esse exercitationem id ipsa! Similique excepturi itaque hic, quibusdam inventore dolorem sit et deserunt. Est ipsum libero numquam tempora unde deleniti illum ratione quae nemo voluptatibus velit reiciendenutistead aperiamdistinctionesciunteaquequiullamaccusamusprovident!</p>
+        </section>
+        <section id="tablazat">
+            <h2>Táblázatok</h2>
+            <table>
+                <caption>Dokumentum vázlat</caption>
+                <thead>
+                    <tr>
+                        <th>Section</th>
+                        <th>Tag-ek</th>
+                        <th>Nehézség</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Szöveg</td>
+                        <td>p, strong, em</td>
+                        <td rowspan="3">2</td>
+                    </tr>
+                    <tr>
+                        <td>Képek és multimédia</td>
+                        <td>img, video, audio</td>
+                    </tr>
+                    <tr>
+                        <td>Táblázatok</td>
+                        <td>table</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">A HTML könnyű</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="kepek">
+            <h2>Képek és multimédia</h2>
+            <p>
+                HTML logo:
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="Kerek HTML logo" />
+            </p>
+            <video src="https://www.w3schools.com/tags/movie.mp4" controls></video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ISH4WAcljuE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <audio src="https://www.w3schools.com/tags/horse.ogg" controls></audio>    
+            
+            <input name="vezetéknév">
+        </section>
+        <footer>
+            &copy; Copyright 2020
+        </footer>
+
+    </article>
+    
+</body>
+</html>
